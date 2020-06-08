@@ -11,7 +11,7 @@ This is the frontend repository for the EstyHotels page design.
 
 ## Images
 
-All images on the page can be found in the images folder and can be accessed from the __index.html__ file using **./assets/img-name.png**. e.g
+All images on the page can be found in the assets folder and can be accessed from the __index.html__ file using **./assets/img-name.png**. e.g
 ```html
 <img src="./assets/hero-img.png">
 ```
