@@ -2,13 +2,40 @@ body {
   margin: 0;
   padding: 0;
 }
-/*1366px
+
 .container {
   width: 1366px;
   max-width: calc(100% - 20px);
   margin: 0 auto;
   padding: 0 10px;
-}*/
+}
+ 
+/*About Section*/
+.about-section {
+  margin: 90px 63px 40px 50px;
+  font-family: Calibri;
+}
+
+.about-us {
+  letter-spacing: 0.035em;
+  font-size: 25px;
+  line-height: 2px;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.btn1{
+background:  #D66939;
+text-transform: uppercase;
+padding: 12px;
+font-size: 20px;
+font-weight: bold;
+border: none; 
+}
+
 /*Room Sections*/
 .room_sections{
   background-color:black;
