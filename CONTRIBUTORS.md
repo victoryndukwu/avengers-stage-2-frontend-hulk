@@ -5,4 +5,6 @@
 
 -  [@BuduCE](https://github.com/BuduCE)
 
--  [@Ledicodes](https:github.com/Ledicodes)
+-  [@Ledicodes](https://github.com/Ledicodes)
+
+-  [@Hasneh](https://github.com/@Hasneh)
