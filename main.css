@@ -88,5 +88,44 @@ button{
   font-weight: bolder;
   border: none;
   padding:5px;
+}
 
+/*footer*/
+.foot{
+  display: flex;
+  padding: 7%;
+}
+.contact{
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+.contact_icon{
+  width: 10%;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+.contact_icon img{
+  height: 48px;
+}
+.contact_info{
+  width: 90%;
+  margin-left: 15px;
+  font-size: 18px;
+  
+  /*margin-top: 15px;*/
+}
+.riw{
+  margin-left: 400px;
+  text-decoration: none;
+  width: 30%;
+}
+.riw1 a{
+  text-decoration: none;
+  color: black;
+  height: 30px;
+}
+.riw3 img{
+  height: 40px;
 }
