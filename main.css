@@ -4,35 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-/* .container {
-  width: 1366px;
-  max-width: calc(100% - 20px);
-  margin: 0 auto;
-  padding: 0 10px;
-} */
-.facilities-container{
-  text-align: center;
-}
-
-.facilities-container .facilities-container-header{
-  margin-top: 50px;
-  margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 2.5em;
-}
-
-
-.facilities-image{
-  height: 300px;
-}
-
-
-.facilities-image-description-title{
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-
 .browse-gallery{
   width: 180px;
   font-weight: bold;
