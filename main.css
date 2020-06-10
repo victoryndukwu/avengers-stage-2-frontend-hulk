@@ -12,26 +12,26 @@ body {
  
 /*About Section*/
 .about-section {
-  margin: 90px 63px 40px 50px;
+  margin: 6% 5% 4% 4%;
   font-family: Calibri;
 }
 
 .about-us {
   letter-spacing: 0.035em;
-  font-size: 25px;
-  line-height: 2px;
+  font-size: 1.7rem;
+  line-height: 0.5rem;
 }
 
 .about {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: lighter;
 }
 
 .btn1{
 background:  #D66939;
 text-transform: uppercase;
-padding: 12px;
-font-size: 20px;
+padding: 1%;
+font-size: 1.2rem;
 font-weight: bold;
 border: none; 
 }
