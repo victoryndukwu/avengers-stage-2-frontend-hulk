@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: calibri
 }
 
 /*.container {
@@ -116,42 +117,91 @@ border: none;
   border: none;
   padding:5px;
 }
-/*footer*/
-.foot{
+
+
+/*CONTACT US SECTION CSS*/
+.contact_section_header{
+  text-align: center;
+
+}
+.contact_section{
+  background-color: #D66939;
+  color: #FFFFFF;
+  height: 100%;
+  padding: 10px;
+
+}
+
+.contact_section input[type=text],input[type=email] {
+  background-color: #D66939;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.contact_section ::placeholder {
+  color: #FFFFFF;
+}
+
+.contact_section button{
+  background-color: #FFFFFF;
+  color: #D66939;
+  padding: 8px;
+  border: 2px solid #D66939;
+  border-radius: 4px;
+}
+/*END CONTACT US SECTION STYLE*/
+
+/*FOOTER SECTION*/
+.contact_section_details{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  box-sizing: border-box;
   display: flex;
-  padding: 7%;
-}
-.contact{
-  display: flex;
-  width: 70%;
-  align-items: center;
-  justify-content: center;
-}
-.contact_icon{
-  width: 10%;
-  margin-bottom: 12px;
-  margin-top: 20px;
-}
-.contact_icon img{
-  height: 48px;
-}
-.contact_info{
-  width: 90%;
-  margin-left: 15px;
-  font-size: 18px;
   
-  /*margin-top: 15px;*/
+
 }
-.riw{
-  margin-left: 400px;
-  text-decoration: none;
+
+.contact_details{
+  width: 70%;
+  padding-left: 5px;
+}
+
+.help_links{
   width: 30%;
 }
-.riw1 a{
-  text-decoration: none;
-  color: black;
-  height: 30px;
+
+.contact_details table{
+  padding: 10px
 }
-.riw3 img{
-  height: 40px;
+
+  
+td img{
+  width: 20px
 }
+
+.text-colored{
+  color: #D66939
+}
+
+ul {
+  list-style: none;
+}
+
+.help_links img{
+  width: 30px;
+}
+
+.help_links .mt-2{
+  margin-top: 10px;
+}
+
+.contact_section_footer{
+  text-align: center;
+}
+
+/*END FOOTER STYLE*/
