@@ -120,6 +120,9 @@ border: none;
     border: none;
     padding:5px;
   }
+  .three1_duplicate{
+    display: none;
+  }
 
 
 }
@@ -168,6 +171,9 @@ border: none;
     width: 95%;
     margin: 5px auto;
     display: block;
+  }
+  .three1{
+    display: none;
   }
 }
 /* facilities section */
