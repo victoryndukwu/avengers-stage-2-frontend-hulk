@@ -4,6 +4,173 @@ body {
   font-family: calibri;
   background-color: #ffffff;
 }
+/* Beginning of Header Styling */
+/* ## Colors
+ - Primary color (orange color on the page): **#D66939**
+ - Secondary Color (Black colors on the page): **#2C2C2C**
+ - Tertiary color (White text on the page): **#FFFFFF**
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  /* width: 1366px; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+/* Header styling */
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(77, 65, 61, 0.322),
+      rgba(112, 86, 73, 0.432)
+    ),
+    url(assets/hero-img.png);
+  background-size: cover;
+  background-position: 0 20px;
+}
+/* navbar styling */
+.header .nav-bar {
+  display: flex;
+  height: 60px;
+  padding-top: 20px;
+  /* background-color: green; */
+  justify-content: space-between;
+}
+.header .nav-bar .logo .logo--orange-text {
+  color: #d66939;
+  font-weight: bolder;
+  font-family: serif;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.header .nav-bar .logo {
+  /* background-color: black; */
+  color: #ffffff;
+  font-size: 35px;
+}
+.header .nav-bar .menu {
+  /* background-color: red; */
+  height: 20px;
+  margin-top: 20px;
+}
+.header .nav-bar .menu li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 10px 0 10px;
+  margin-bottom: 0;
+}
+.header .nav-bar .menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* end of navbar styling */
+
+/* hero section styling */
+.header .hero {
+  /* background-color: purple; */
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.header .hero .hero--area {
+  /* background-color: grey; */
+  height: 30%;
+  align-self: center;
+  color: white;
+}
+.header .hero .hero--area .hero--welcome {
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header .hero .hero--area .hero--welcome:before, .header .hero .hero--area .hero--welcome:after {
+  content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+  text-decoration: line-through;
+  color: #d66939;
+  padding-right:  20px;
+  padding-left: 20px;
+  margin: auto 0.5em;
+}
+.header .hero .hero--area .hero--text {
+  font-size: 55px;
+  font-weight: 500;
+  padding: 10px;
+}
+/* had to create a containing div for the book now button and set its display to flex in order center it */
+.header .hero .hero--area .hero--btn-container {
+  display: flex;
+}
+/* styling for the header button */
+.header .hero .hero--area .hero--btn-container .hero--btn {
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: 3px solid #d66939;
+  width: 240px;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 30px;
+}
+
+/* booking section */
+.header .hero .hero--area .booking {
+  background-color: #d66939;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px 0px 120px;
+}
+/* check in and check out buttons */
+.header .hero .hero--area .booking .booking--btn-check-in,
+.booking--btn-check-out {
+  width: 150px;
+  height: 45px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid transparent;
+  margin: 0 5px 0 5px;
+  align-self: center;
+}
+.header .hero .hero--area .booking .booking--btn-check-availability {
+  width: 150px;
+  background-color: black;
+  border: 1px solid transparent;
+  color: white;
+  height: 30px;
+  margin-bottom: -15px;
+  align-self: center;
+}
+.header .hero .hero--area .booking .booking--input-adult,
+.booking--input-children {
+  width: 75px;
+  height: 35px;
+  margin: -10px 10px -10px 0px;
+}
+.booking--label-adult, .booking--label-children {
+  color: black;
+}
+
+#adult {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+#children {
+  margin-right: 8px;
+}
+
+/* end of hero section styling */
+
+/*End of Header styling */
 
 /*.container {
   width: 1366px;
