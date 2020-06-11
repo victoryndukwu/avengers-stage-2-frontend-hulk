@@ -39,86 +39,137 @@ border: none;
 }
 
 /*Room Sections*/
-.room_sections{
-  background-color:black;
-  color: #FFFFFF;
-  /*#2C2C2C*/
-}
-.arrow{
-  float: right;
-}
-.arrow a{
-  text-decoration: none;
-  color:white;
-}
-.one{
-  text-align: center;
-  clear:right;
-}
-.two{
-  display: flex;
-  color: #FFFFFF;
-  clear:left;
-}
-.two2{
-  margin-left: 5rem;
-  width: 670px;
-  height: 500px;
-}
-.three{
-  display: flex;
-  color: #FFFFFF;
-}
-.three1{
-  margin-right: 5rem;
-  text-align: right;
-  width: 670px;
-  height: 500px;
-  margin-top: 5rem;
-}
-.room_image{
-  width: 670px;
-  height: 500px;
-}
-.arrow_1{
-  margin-top: 4rem;
-}
-.arrow_1 a{
-  text-decoration:none;
-  color:white;
-  margin-left:6px;
-}
-.three1_1{
-  display: flex;
-  color: #FFFFFF;
-  margin-top: 3rem;
-}
-.three1_2{
-  margin-left: 5rem;
-  width: 670px;
-  height: 500px;
-  margin-top: 4rem;
-}
-.two2_1{
-  margin-left: 5rem;
-  width: 670px;
-  height: 500px;
-  margin-top: 4rem;
-}
-.two{
-  display: flex;
-  color: #FFFFFF;
-  margin-top: 3rem;
-}
-.butt{
-  background: #D66939 ;
-  color:#2C2C2C;
-  font-size: 24px;
-  font-weight: bolder;
-  border: none;
-  padding:5px;
-}
+@media (min-width: 768px) {
 
+  .room_sections{
+    background-color:black;
+    color: #FFFFFF;
+    /*#2C2C2C*/
+  }
+  .arrow{
+    float: right;
+  }
+  .arrow a{
+    text-decoration: none;
+    color:white;
+  }
+  .one{
+    text-align: center;
+    clear:right;
+  }
+  .two{
+    display: flex;
+    color: #FFFFFF;
+    clear:left;
+  }
+  .two2{
+    margin-left: 5rem;
+    width: 670px;
+    height: 500px;
+  }
+  .three{
+    display: flex;
+    color: #FFFFFF;
+  }
+  .three1{
+    margin-right: 5rem;
+    text-align: right;
+    width: 670px;
+    height: 500px;
+    margin-top: 5rem;
+  }
+  .room_image{
+    width: 670px;
+    height: 500px;
+  }
+  .arrow_1{
+    margin-top: 4rem;
+  }
+  .arrow_1 a{
+    text-decoration:none;
+    color:white;
+    margin-left:6px;
+  }
+  .three1_1{
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 3rem;
+  }
+  .three1_2{
+    margin-left: 5rem;
+    width: 670px;
+    height: 500px;
+    margin-top: 4rem;
+  }
+  .two2_1{
+    margin-left: 5rem;
+    width: 670px;
+    height: 500px;
+    margin-top: 4rem;
+  }
+  .two{
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 3rem;
+  }
+  .butt{
+    background: #D66939 ;
+    color:#2C2C2C;
+    font-size: 24px;
+    font-weight: bolder;
+    border: none;
+    padding:5px;
+  }
+
+
+}
+@media (max-width: 767px) {
+  .room_sections{
+    background-color:black;
+    color: #FFFFFF;
+    text-align: center;
+    /*#2C2C2C*/
+  }
+  .arrow{
+    float: right;
+  }
+  .arrow a{
+    text-decoration: none;
+    color:white;
+  }
+  .arrow_1{
+    margin-top: 4rem;
+  }
+  .arrow_1 a{
+    text-decoration:none;
+    color:white;
+    margin-left:6px;
+  }
+  .one{
+    text-align: center;
+  }
+  .three1_1{
+    color: #FFFFFF;
+  }
+  .two{
+    color: #FFFFFF;
+  }
+  .three{
+    color: #FFFFFF;
+  }
+  .butt{
+    background: #D66939 ;
+    color:#2C2C2C;
+    font-weight: bolder;
+    border: none;
+  }
+  .room_image{
+    height: 250px;
+    width: 95%;
+    margin: 5px auto;
+    display: block;
+  }
+}
 /* facilities section */
 .jumbotron{
   margin-bottom: 0;
